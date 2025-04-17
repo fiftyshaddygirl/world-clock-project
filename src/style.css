@@ -1,13 +1,90 @@
-h1 {
-  text-align: center;
+body {
+  background-color: #f8dce8;
+  padding: 50px;
 }
 
 .container {
+  background-color: #96cce9;
   text-align: center;
+  max-width: 500px;
+  max-height: 600px;
+  margin: 20px auto;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 8px 8px 8px #134479;
+}
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin: 0;
+  color: #213765;
+}
+
+select {
+  background-color: #f1b0cd;
+  color: #134479;
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  width: 40%;
+  box-shadow: 8px 8px 8px #134479;
+  transition: all 200ms ease-in-out;
+}
+
+select:hover {
+  background-color: #134479;
+  color: #f1b0cd;
+  text-align: center;
+  box-shadow: 8px 8px 8px #f1b0cd;
+}
+
+h2 {
+  margin: 0;
+  font-size: 35px;
+}
+
+.city {
+  color: #213765;
+  padding: 5px 20px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px dashed rgb(19, 68, 121, 0.2);
+}
+.city:last-child {
+  border: none;
+  padding-bottom: 0;
+}
+
+.date {
+  opacity: 0.7;
+  font-size: 12px;
+  text-align: left;
+}
+
+.time {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.unit {
+  font-size: 15px;
+  font-weight: bold;
 }
 
 footer {
-  margin-top: 20px;
+  color: #134479;
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
