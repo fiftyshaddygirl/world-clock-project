@@ -6,7 +6,7 @@ body {
 .container {
   background-color: #96cce9;
   text-align: center;
-  max-width: 500px;
+  max-width: 600px;
   max-height: 600px;
   margin: 20px auto;
   border-radius: 20px;
@@ -31,6 +31,7 @@ select {
   width: 40%;
   box-shadow: 8px 8px 8px #134479;
   transition: all 200ms ease-in-out;
+  font-size: 15px;
 }
 
 select:hover {
@@ -48,7 +49,7 @@ h2 {
 .city {
   text-align: left;
   color: #213765;
-  padding: 5px 20px 10px;
+  padding: 15px 20px 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -56,7 +57,7 @@ h2 {
 }
 .city:last-child {
   border: none;
-  padding-bottom: 0;
+  padding-bottom: 20px;
 }
 
 .date {
@@ -76,18 +77,15 @@ small {
   font-weight: bold;
 }
 
-.back {
-  margin: 10px;
-  text-align: left;
-}
-
 footer {
+  margin-top: 5px;
   color: #134479;
   text-align: center;
   font-size: 12px;
 }
 
 a {
+  margin: 5px;
   text-decoration: none;
 }
 
