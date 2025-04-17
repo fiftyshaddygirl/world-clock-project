@@ -76,6 +76,11 @@ small {
   font-weight: bold;
 }
 
+.back {
+  margin: 10px;
+  text-align: left;
+}
+
 footer {
   color: #134479;
   text-align: center;
