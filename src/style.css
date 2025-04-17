@@ -1,17 +1,22 @@
 body {
-  background-color: #f8dce8;
-  padding: 50px;
+  background-color: #0a0d12;
+  padding: 150px;
+  background-image: url("worldmap.jpg");
+  background-position: center center;
+  background-size: 1200px;
+  background-repeat: no-repeat;
 }
 
 .container {
   background-color: #96cce9;
+  opacity: 0.8;
   text-align: center;
   max-width: 600px;
   max-height: 600px;
   margin: 20px auto;
   border-radius: 20px;
   padding: 20px;
-  box-shadow: 8px 8px 8px #134479;
+  box-shadow: 8px 8px 10px #fff;
 }
 h1 {
   text-align: center;
@@ -21,7 +26,7 @@ h1 {
 }
 
 select {
-  background-color: #f1b0cd;
+  background-color: rgba(241, 176, 205, 0.8);
   color: #134479;
   margin: 5px;
   padding: 5px 10px;
@@ -35,7 +40,7 @@ select {
 }
 
 select:hover {
-  background-color: #134479;
+  background-color: rgba(19, 68, 121, 0.8);
   color: #f1b0cd;
   text-align: center;
   box-shadow: 8px 8px 8px #f1b0cd;
@@ -79,7 +84,7 @@ small {
 
 footer {
   margin-top: 5px;
-  color: #134479;
+  color: #f86ab8;
   text-align: center;
   font-size: 12px;
 }
